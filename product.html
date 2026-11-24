@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>สินค้า | Aura Strand</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    /* จัดแถวปุ่มกรอง (script.js เป็นคนสร้างปุ่มเอง) */
+    #filter-bar {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: var(--space-2);
+      margin-bottom: var(--space-5);
+    }
+    #filter-bar .btn { padding: 0.6rem 1.8rem; }
+  </style>
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container">
+      <a href="index.html" class="brand">Aura Strand</a>
+      <nav class="nav">
+        <a href="index.html">หน้าแรก</a>
+        <a href="product.html">สินค้า</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="section">
+      <div class="container">
+        <div class="section-title">
+          <span class="eyebrow">Collection</span>
+          <h1>สินค้าทั้งหมด</h1>
+        </div>
+
+        <div id="filter-bar"></div>
+        <div id="product-list" class="product-grid"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <span class="brand">Aura Strand</span>
+      <p>© 2026 Aura Strand. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

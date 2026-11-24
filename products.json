@@ -1,0 +1,42 @@
+[
+  {
+    "id": "AS-BTY-100",
+    "name": "แชมพูสูตรผมสวย Beauty เล็ก",
+    "mood": "Beauty",
+    "type": "shampoo",
+    "size": "100 ml",
+    "price": 99,
+    "image": "images/beauty.jpg",
+    "description": "ขวดพกพาสำหรับลองสัมผัสความนุ่มลื่นเงางามของสูตรผมสวย ก่อนตัดสินใจใช้จริง"
+  },
+  {
+    "id": "AS-BTY-300",
+    "name": "แชมพูสูตรผมสวย Beauty ใหญ่",
+    "mood": "Beauty",
+    "type": "shampoo",
+    "size": "300 ml",
+    "price": 259,
+    "image": "images/beauty.jpg",
+    "description": "แชมพูสูตรผมสวยขนาดคุ้มค่า ให้ผมนุ่มเงา จัดทรงง่าย ใช้ได้ทุกวัน"
+  },
+  {
+    "id": "AS-STR-30",
+    "name": "แชมพูสูตรผมแข็งแรง Strong เล็ก",
+    "mood": "Strong",
+    "type": "shampoo",
+    "size": "30 ml",
+    "price": 99,
+    "image": "images/strong.jpg",
+    "description": "ขวดทดลองสูตรผมแข็งแรง ลองดูว่าผมและหนังศีรษะรู้สึกมั่นใจขึ้นแค่ไหน"
+  },
+  {
+    "id": "AS-STR-100",
+    "name": "แชมพูสูตรผมแข็งแรง Strong ใหญ่",
+    "mood": "Strong",
+    "type": "shampoo",
+    "size": "100 ml",
+    "price": 259,
+    "image": "images/strong.jpg",
+    "description": "แชมพูสูตรผมแข็งแรงขนาดใหญ่ ดูแลผมให้รู้สึกหนาแน่นและมีแรงในทุกวัน"
+  }
+]

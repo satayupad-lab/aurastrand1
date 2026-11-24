@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Aura Strand | แชมพูสูตรผมสวยและผมแข็งแรง</title>
+  <meta name="description" content="Aura Strand แชมพู 2 สูตร ผมสวยและผมแข็งแรง ดูแลเส้นผมตั้งแต่รากถึงปลาย">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    /* สไตล์เฉพาะหน้าแรก */
+    .hero--full {
+      min-height: calc(100vh - 72px);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: var(--space-5) 0;
+    }
+    .hero--full h1 { max-width: 760px; margin: 0 auto var(--space-3); }
+    a.mood-card { display: block; transition: border-color .3s, transform .3s; }
+    a.mood-card:hover { border-color: var(--accent); transform: translateY(-2px); }
+    .mood-card__more {
+      display: inline-block;
+      margin-top: var(--space-2);
+      font-size: 0.8rem;
+      letter-spacing: 0.16em;
+      color: var(--accent);
+      border-bottom: 1px solid var(--accent-light);
+      padding-bottom: 2px;
+    }
+  </style>
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container">
+      <a href="index.html" class="brand">Aura Strand</a>
+      <nav class="nav">
+        <a href="index.html">หน้าแรก</a>
+        <a href="product.html">สินค้า</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero hero--full">
+      <div class="container">
+        <span class="eyebrow">Aura Strand</span>
+        <h1>ผมสวยจากรากถึงปลาย แข็งแรงจากภายในทุกเส้น</h1>
+        <p>แชมพู 2 สูตร ผมสวยและผมแข็งแรง ดูแลเส้นผมให้มีออร่าในแบบของคุณ</p>
+        <a href="product.html" class="btn">ดูสินค้าทั้งหมด</a>
+      </div>
+    </section>
+
+    <!-- Mood / สูตร -->
+    <section class="section section--soft">
+      <div class="container">
+        <div class="section-title">
+          <span class="eyebrow">Our Formulas</span>
+          <h2>เลือกสูตรที่ใช่สำหรับคุณ</h2>
+        </div>
+
+        <div class="mood-grid">
+          <a class="mood-card" href="product.html?mood=beauty">
+            <span class="eyebrow">Beauty</span>
+            <h3><span class="mood-dot mood-dot--beauty"></span>สูตรผมสวย</h3>
+            <span class="mood-line mood-line--beauty"></span>
+            <p>ผมนุ่มลื่น เงางาม จัดทรงง่าย ให้ผมดูสุขภาพดีและมีออร่าตั้งแต่หลังสระเสร็จ</p>
+            <span class="mood-card__more">ดูสินค้าสูตรนี้</span>
+          </a>
+
+          <a class="mood-card" href="product.html?mood=strong">
+            <span class="eyebrow">Strong</span>
+            <h3><span class="mood-dot mood-dot--strong"></span>สูตรผมแข็งแรง</h3>
+            <span class="mood-line mood-line--strong"></span>
+            <p>ดูแลตั้งแต่หนังศีรษะถึงเส้นผม ช่วยให้ผมรู้สึกหนาแน่น มีแรง และลดความเปราะบางจากการใช้ชีวิตประจำวัน</p>
+            <span class="mood-card__more">ดูสินค้าสูตรนี้</span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <span class="brand">Aura Strand</span>
+      <p>© 2026 Aura Strand. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
